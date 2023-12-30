@@ -8,30 +8,30 @@
   </head>
 
   <!-- Change code below this line -->
-  <body class="bg-slate-200 m-0 p-0 box-border h-full">
+  <body class="bg-slate-200 text-slate-700 h-full">
     <div
-      class="main-container bg-slate-50 border border-solid border-black rounded-2xl my-28 mx-auto h-1/2 w-full max-w-4xl bg-black sm:bg-sky-500 md:bg-red-500 lg:bg-purple-500"
+      class="main-container bg-slate-50 rounded-2xl mt-24 mx-auto w-full p-4 md:p-8 max-w-4xl"
     >
-      <div class="header text-center border border-solid border-black mt-24">
+      <div class="header text-center mt-24">
         <h2 class="text-3xl">Select your profile</h2>
         <p class="text-xl mt-4 w-3/5 mx-auto">
           Logged in users can view full business profiles and can save contact
           details.
         </p>
       </div>
-      <div class="border border-solid border-black">
+      <div>
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 my-20 mx-16"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-20 px-4 md:px-16"
         >
-          <div class="bg-slate-200 w-full aspect-square rounded-2xl p-6">
-            <div class="bg-slate-50 h-full w-full rounded-2xl p-4 shadow-lg">
+          <div class="bg-slate-200 w-full rounded-2xl p-6">
+            <div class="bg-slate-50 h-full w-full rounded-2xl p-6 shadow-lg">
               <img
-                class="w-16 h-16 object-cover rounded-full mx-auto mb-2"
+                class="w-16 h-16 object-cover rounded-full mx-auto mb-4"
                 src="https://images.unsplash.com/photo-1580477667995-2b94f01c9516?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="user-img"
               />
               <p class="text-center mb-4">Andrew Robinson</p>
-              <div class="text-center">
+              <div class="relative text-center group">
                 <span
                   class="bg-transparent hover:bg-slate-200 p-1 inline-block mx-auto rounded"
                 >
@@ -52,19 +52,73 @@
                     <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                     <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                   </svg>
+                  <div
+                    class="absolute top-10 left-0 bg-slate-50 rounded-lg shadow w-28 p-2 hidden group-hover:block"
+                  >
+                    <p class="flex gap-2 p-2 hover:bg-slate-200 rounded">
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-edit"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path
+                            d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"
+                          />
+                          <path
+                            d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z"
+                          />
+                          <path d="M16 5l3 3" /></svg></span
+                      >Edit
+                    </p>
+                    <p class="flex gap-2 p-2 hover:bg-slate-200 rounded">
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-trash"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M4 7l16 0" />
+                          <path d="M10 11l0 6" />
+                          <path d="M14 11l0 6" />
+                          <path
+                            d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"
+                          />
+                          <path
+                            d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"
+                          /></svg></span
+                      >Delete
+                    </p>
+                  </div>
                 </span>
               </div>
             </div>
           </div>
-          <div class="bg-slate-200 w-full aspect-square rounded-2xl p-6">
-            <div class="bg-slate-50 h-full w-full rounded-2xl p-4 shadow-lg">
+          <div class="bg-slate-200 w-full rounded-2xl p-6">
+            <div class="bg-slate-50 h-full w-full rounded-2xl p-6 shadow-lg">
               <img
-                class="w-16 h-16 object-cover rounded-full mx-auto mb-2"
-                src="https://images.unsplash.com/photo-1580477667995-2b94f01c9516?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="w-16 h-16 object-cover rounded-full mx-auto mb-4"
+                src="https://images.unsplash.com/photo-1614583225154-5fcdda07019e?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="user-img"
               />
-              <p class="text-center mb-4">Andrew Robinson</p>
-              <div class="text-center">
+              <p class="text-center mb-4">Mary Kyles</p>
+              <div class="relative text-center group">
                 <span
                   class="bg-transparent hover:bg-slate-200 p-1 inline-block mx-auto rounded"
                 >
@@ -85,9 +139,84 @@
                     <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                     <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                   </svg>
+                  <div
+                    class="absolute top-10 left-0 bg-slate-50 rounded-lg shadow w-28 p-2 hidden group-hover:block"
+                  >
+                    <p class="flex gap-2 p-2 hover:bg-slate-200 rounded">
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-edit"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path
+                            d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"
+                          />
+                          <path
+                            d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z"
+                          />
+                          <path d="M16 5l3 3" /></svg></span
+                      >Edit
+                    </p>
+                    <p class="flex gap-2 p-2 hover:bg-slate-200 rounded">
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-trash"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M4 7l16 0" />
+                          <path d="M10 11l0 6" />
+                          <path d="M14 11l0 6" />
+                          <path
+                            d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12"
+                          />
+                          <path
+                            d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3"
+                          /></svg></span
+                      >Delete
+                    </p>
+                  </div>
                 </span>
               </div>
             </div>
+          </div>
+          <div class="bg-transparent flex self-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-octagon-plus mx-auto stroke-slate-200 hover:stroke-slate-400 hover:-translate-y-1 hover:translate-x-1 transition duration-700"
+              width="128"
+              height="128"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M12.802 2.165l5.575 2.389c.48 .206 .863 .589 1.07 1.07l2.388 5.574c.22 .512 .22 1.092 0 1.604l-2.389 5.575c-.206 .48 -.589 .863 -1.07 1.07l-5.574 2.388c-.512 .22 -1.092 .22 -1.604 0l-5.575 -2.389a2.036 2.036 0 0 1 -1.07 -1.07l-2.388 -5.574a2.036 2.036 0 0 1 0 -1.604l2.389 -5.575c.206 -.48 .589 -.863 1.07 -1.07l5.574 -2.388a2.036 2.036 0 0 1 1.604 0z"
+              />
+              <path d="M9 12h6" />
+              <path d="M12 9v6" />
+            </svg>
           </div>
         </div>
       </div>
